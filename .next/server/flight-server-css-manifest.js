@@ -1,0 +1,33 @@
+self.__RSC_CSS_MANIFEST={
+  "cssImports": {
+    "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\app\\layout.tsx": [
+      "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\styles\\globals.css"
+    ]
+  },
+  "cssModules": {
+    "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\app\\contact\\page": [
+      "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\styles\\globals.css"
+    ],
+    "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\app\\page": [
+      "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\styles\\globals.css"
+    ],
+    "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\app\\about\\page": [
+      "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\styles\\globals.css"
+    ],
+    "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\app\\experience\\page": [
+      "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\styles\\globals.css"
+    ],
+    "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\app\\projects\\page": [
+      "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\styles\\globals.css"
+    ],
+    "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\app\\achievements\\page": [
+      "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\styles\\globals.css"
+    ],
+    "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\app\\certifications\\page": [
+      "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\styles\\globals.css"
+    ],
+    "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\app\\coding\\page": [
+      "C:\\Users\\Divya R\\Downloads\\divya-portfolio-full\\divya-portfolio-full\\styles\\globals.css"
+    ]
+  }
+}
