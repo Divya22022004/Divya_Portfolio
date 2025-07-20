@@ -5,7 +5,7 @@ Built with **Next.js 14**, **Tailwind CSS**, **Framer Motion**, and integrated w
 
 ## 🌐 Live Preview
 
-🔗 [View Portfolio](https://your-deployment-link.vercel.app)  
+🔗 [View Portfolio](https://divya-portfolio-divya-rs-projects.vercel.app/)
 📧 Contact Me: [divyait2004@gmail.com](mailto:divyait2004@gmail.com)
 
 ---
