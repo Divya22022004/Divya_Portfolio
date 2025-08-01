@@ -5,8 +5,8 @@ import { FaAward } from "react-icons/fa";
 export default function AchievementsPage() {
   const achievements = [
     {
-      title: "160-Day Full Stack Internship",
-      description: "Completed a 160-day intensive full stack internship program.",
+      title: "160-Day of Code",
+      description: "Completed a 160-day GeeksforGeeks Code.",
       proof: "https://drive.google.com/file/d/135Wk6Gr-YG9OROSR9XbQ6f-sGcRNMNZI/view",
       icon: "🏆"
     },
