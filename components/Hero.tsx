@@ -12,7 +12,7 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
       >
         <h1 className="text-4xl font-extrabold text-blue-600 dark:text-blue-400 mb-4">
-          Hello, I’m Divya R 👋
+          Hello, I’m DIVYA R 👋
         </h1>
         <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
           I'm a <span className="font-semibold">MERN Stack Developer</span> and
