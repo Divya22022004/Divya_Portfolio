@@ -9,12 +9,6 @@ export default function ProjectsPage() {
     github: "https://github.com/Divya22022004/dynamic_greetings"
   },
   {
-    title: "Blockchain Voting System",
-    tech: "Node.js, Express.js, MongoDB, MetaMask",
-    description: "Secure and transparent voting using blockchain with MetaMask authentication.",
-    // github: "https://github.com/Divya22022004/Blockchain-Voting-System"
-  },
-  {
     title: "Diabetes Prediction",
     tech: "Python, Scikit-learn",
     description: "ML model to predict diabetes based on health parameters.",
@@ -37,7 +31,14 @@ export default function ProjectsPage() {
     tech: "Node.js, JavaScript, npm (qrcode), HTML, CSS",
     description: "Generates QR codes from user data and saves them as downloadable PNG images.",
     github: "https://github.com/Divya22022004/QR-Code-Project"
+  },
+  {
+    title: "Blockchain Voting System",
+    tech: "Node.js, Express.js, MongoDB, MetaMask",
+    description: "Secure and transparent voting using blockchain with MetaMask authentication.",
+    // github: "https://github.com/Divya22022004/Blockchain-Voting-System"
   }
+  
 ];
 
 
