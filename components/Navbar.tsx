@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <nav className="w-full px-6 py-4 flex flex-wrap justify-between items-center shadow-md bg-white dark:bg-gray-900 z-50 sticky top-0">
       <div className="text-xl font-bold text-blue-600 dark:text-blue-400">
-        Divya R
+        DIVYA R
       </div>
       <div className="flex gap-6 items-center flex-wrap">
         {links.map((link) => (
