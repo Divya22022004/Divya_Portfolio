@@ -1,26 +1,45 @@
 'use client';
 
 export default function ProjectsPage() {
-  const projects = [
-    {
-      title: "Dynamic Greeting App",
-      tech: "MERN Stack",
-      description: "A personalized greeting generator based on time and user behavior.",
-      github: "https://github.com/Divya22022004/dynamic_greetings"
-    },
-    {
-      title: "Blockchain Voting System",
-      tech: "Node.js, Express.js, MongoDB, MetaMask",
-      description: "Secure and transparent voting using blockchain with MetaMask authentication.",
-      // github: "https://github.com/Divya22022004/Blockchain-Voting-System"
-    },
-    {
-      title: "Diabetes Prediction",
-      tech: "Python, Scikit-learn",
-      description: "ML model to predict diabetes based on health parameters.",
-      github: "https://github.com/Divya22022004/Diabetes-Prediction-Project"
-    }
-  ];
+ const projects = [
+  {
+    title: "Dynamic Greeting App",
+    tech: "MERN Stack",
+    description: "A personalized greeting generator based on time and user behavior.",
+    github: "https://github.com/Divya22022004/dynamic_greetings"
+  },
+  {
+    title: "Blockchain Voting System",
+    tech: "Node.js, Express.js, MongoDB, MetaMask",
+    description: "Secure and transparent voting using blockchain with MetaMask authentication.",
+    // github: "https://github.com/Divya22022004/Blockchain-Voting-System"
+  },
+  {
+    title: "Diabetes Prediction",
+    tech: "Python, Scikit-learn",
+    description: "ML model to predict diabetes based on health parameters.",
+    github: "https://github.com/Divya22022004/Diabetes-Prediction-Project"
+  },
+  {
+    title: "Railway Management System",
+    tech: "Java, JSP, HTML, CSS, JavaScript, AJAX, MySQL, Apache Tomcat",
+    description: "JSP-based web app for railway reservations, train scheduling, fare calculation, and PNR tracking.",
+    github: "https://github.com/Divya22022004/Railway-Management-System"
+  },
+  {
+    title: "PHP MySQL Chat Application – MyChat",
+    tech: "PHP, MySQL, HTML, CSS, JavaScript, Bootstrap, Apache (XAMPP)",
+    description: "Real-time chat platform with authentication, friend search, and online/offline status tracking.",
+    github: "https://github.com/Divya22022004/PHP-MySql-Chat-Application"
+  },
+  {
+    title: "QR Code Project",
+    tech: "Node.js, JavaScript, npm (qrcode), HTML, CSS",
+    description: "Generates QR codes from user data and saves them as downloadable PNG images.",
+    github: "https://github.com/Divya22022004/QR-Code-Project"
+  }
+];
+
 
   return (
     <section className="section">
