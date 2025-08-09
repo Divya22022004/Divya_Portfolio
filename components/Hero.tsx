@@ -27,7 +27,7 @@ export default function Hero() {
             Let’s Connect
           </a>
           <a
-            href="https://drive.google.com/file/d/196X2QBZEAslz47aLvx3cJejmNcAcOFBp/view?usp=sharing" // Make sure the resume is in public/resume.pdf
+            href="/resume.pdf" // Make sure the resume is in public/resume.pdf
             target="_blank"
             rel="noopener noreferrer"
             className="button-outline"
