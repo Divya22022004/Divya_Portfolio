@@ -27,6 +27,24 @@ export default function CertificationsPage() {
       url: "https://drive.google.com/file/d/1G3EVIVwoVNITZau4oEBHFHrXYpBZnfrQ/view",
       issuer: "NoviTech",
       icon: "🌐"
+    },
+    {
+      name: "Front End Web Developer Certification – Infosys Springboard",
+      url: "https://drive.google.com/file/d/1kISGRzD3Py8epjok2xh1l_AihU-5n5O2/view",
+      issuer: "Infosys Springboard",
+      icon: "💻"
+    },
+    {
+      name: "Python Foundation Certification – Infosys Springboard",
+      url: "https://drive.google.com/file/d/1fpYTeALoirrdHm-Bi-_UPIxXi2Cl7H73/view",
+      issuer: "Infosys Springboard",
+      icon: "🐍"
+    },
+    {
+      name: "Machine Learning Foundation Certification – Infosys Springboard",
+      url: "https://drive.google.com/file/d/1oVjhaehFYQF4-bHOCX4qZoqa0SfNcjQI/view",
+      issuer: "Infosys Springboard",
+      icon: "🤖"
     }
   ];
 
