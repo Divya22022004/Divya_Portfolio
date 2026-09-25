@@ -1,10 +1,12 @@
 'use client';
+
 import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
     <section className="section flex flex-col-reverse md:flex-row items-center justify-between text-center md:text-left gap-8 min-h-screen">
+      
       <motion.div
         className="flex-1"
         initial={{ opacity: 0, y: 30 }}
@@ -14,9 +16,17 @@ export default function Hero() {
         <h1 className="text-4xl font-extrabold text-blue-600 dark:text-blue-400 mb-4">
           Hello, I’m DIVYA R 👋
         </h1>
+
         <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
-          I'm a <span className="font-semibold">MERN Stack Developer</span> and
-          <span className="font-semibold"> Machine Learning Enthusiast</span> passionate about building efficient, user-friendly applications.
+          I'm a{" "}
+          <span className="font-semibold">
+            Java Full Stack Developer
+          </span>{" "}
+          and{" "}
+          <span className="font-semibold">
+            Machine Learning Enthusiast
+          </span>{" "}
+          passionate about building efficient, user-friendly applications.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
@@ -26,8 +36,9 @@ export default function Hero() {
           >
             Let’s Connect
           </a>
+
           <a
-            href="/resume.pdf" // Make sure the resume is in public/resume.pdf
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="button-outline"
@@ -51,6 +62,7 @@ export default function Hero() {
           className="object-cover w-full h-full"
         />
       </motion.div>
+
     </section>
   );
 }
