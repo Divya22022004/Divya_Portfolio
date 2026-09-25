@@ -45,6 +45,24 @@ export default function CertificationsPage() {
       url: "https://drive.google.com/file/d/1oVjhaehFYQF4-bHOCX4qZoqa0SfNcjQI/view",
       issuer: "Infosys Springboard",
       icon: "🤖"
+    },
+    {
+      name: "Frontend Fundamentals – Pirple",
+      url: "https://drive.google.com/file/d/1MfBOI1xdjbFD2YwOYogxAzNuYrlMwT_P/view?usp=drive_link",
+      issuer: "Pirple",
+      icon: "🎨"
+    },
+    {
+      name: "Generative AI – GUVI",
+      url: "https://drive.google.com/file/d/1paX-m0xV46JYTGzNC840t4R9aLJ1sMAm/view?usp=sharing",
+      issuer: "GUVI",
+      icon: "🤖"
+    },
+    {
+      name: "Micro-Certification: Welcome to ServiceNow",
+      url: "https://drive.google.com/file/d/1HBBKRMOsCgMua4IpZ4h-Q7je75HZF1eU/view?usp=sharing",
+      issuer: "ServiceNow",
+      icon: "☁️"
     }
   ];
 
@@ -53,6 +71,7 @@ export default function CertificationsPage() {
       <h1 className="text-4xl font-extrabold text-center mb-8 text-green-600 dark:text-green-400 transition duration-300">
         🎓 Certifications
       </h1>
+
       <div className="grid sm:grid-cols-2 gap-6">
         {certs.map((cert, index) => (
           <div
@@ -60,12 +79,21 @@ export default function CertificationsPage() {
             className="card flex flex-col justify-between hover:shadow-lg transition-transform hover:scale-105"
           >
             <div className="flex items-center gap-4 mb-3">
-              <span className="text-3xl">{cert.icon || <FaCertificate />}</span>
+              <span className="text-3xl">
+                {cert.icon || <FaCertificate />}
+              </span>
+
               <div>
-                <p className="text-lg font-semibold text-gray-800 dark:text-gray-100">{cert.name}</p>
-                <p className="text-sm text-gray-500 dark:text-gray-400">Issued by {cert.issuer}</p>
+                <p className="text-lg font-semibold text-gray-800 dark:text-gray-100">
+                  {cert.name}
+                </p>
+
+                <p className="text-sm text-gray-500 dark:text-gray-400">
+                  Issued by {cert.issuer}
+                </p>
               </div>
             </div>
+
             <a
               href={cert.url}
               target="_blank"
