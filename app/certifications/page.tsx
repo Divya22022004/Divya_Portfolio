@@ -54,13 +54,13 @@ export default function CertificationsPage() {
     },
     {
       name: "Generative AI – GUVI",
-      url: "https://drive.google.com/file/d/1paX-m0xV46JYTGzNC840t4R9aLJ1sMAm/view?usp=sharing",
+      url: "https://drive.google.com/file/d/1HBBKRMOsCgMua4IpZ4h-Q7je75HZF1eU/view?usp=sharing",
       issuer: "GUVI",
       icon: "🤖"
     },
     {
       name: "Micro-Certification: Welcome to ServiceNow",
-      url: "https://drive.google.com/file/d/1HBBKRMOsCgMua4IpZ4h-Q7je75HZF1eU/view?usp=sharing",
+      url: "https://drive.google.com/file/d/1paX-m0xV46JYTGzNC840t4R9aLJ1sMAm/view?usp=sharing",
       issuer: "ServiceNow",
       icon: "☁️"
     }
