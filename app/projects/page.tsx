@@ -1,58 +1,88 @@
 'use client';
 
 export default function ProjectsPage() {
- const projects = [
-  {
-    title: "Dynamic Greeting App",
-    tech: "MERN Stack",
-    description: "A personalized greeting generator based on time and user behavior.",
-    github: "https://github.com/Divya22022004/dynamic_greetings"
-  },
-  {
-    title: "Diabetes Prediction",
-    tech: "Python, Scikit-learn",
-    description: "ML model to predict diabetes based on health parameters.",
-    github: "https://github.com/Divya22022004/Diabetes-Prediction-Project"
-  },
-  {
-    title: "Railway Management System",
-    tech: "Java, JSP, HTML, CSS, JavaScript, AJAX, MySQL, Apache Tomcat",
-    description: "JSP-based web app for railway reservations, train scheduling, fare calculation, and PNR tracking.",
-    github: "https://github.com/Divya22022004/Railway-Management-System"
-  },
-  {
-    title: "PHP MySQL Chat Application – MyChat",
-    tech: "PHP, MySQL, HTML, CSS, JavaScript, Bootstrap, Apache (XAMPP)",
-    description: "Real-time chat platform with authentication, friend search, and online/offline status tracking.",
-    github: "https://github.com/Divya22022004/PHP-MySql-Chat-Application"
-  },
-  {
-    title: "QR Code Project",
-    tech: "Node.js, JavaScript, npm (qrcode), HTML, CSS",
-    description: "Generates QR codes from user data and saves them as downloadable PNG images.",
-    github: "https://github.com/Divya22022004/QR-Code-Project"
-  },
-  {
-    title: "Blockchain Voting System",
-    tech: "Node.js, Express.js, MongoDB, MetaMask",
-    description: "Secure and transparent voting using blockchain with MetaMask authentication.",
-    // github: "https://github.com/Divya22022004/Blockchain-Voting-System"
-  }
-  
-];
-
+  const projects = [
+    {
+      title: "AR Medical Educational App",
+      tech: "Augmented Reality, Unity, Firebase",
+      description:
+        "An interactive augmented reality application designed to enhance medical education by allowing students to explore and interact with 3D anatomical organs using a smartphone or tablet.",
+      github: "https://github.com/Divya22022004/AR-Medical-Educational-App"
+    },
+    {
+      title: "Hospital Appointment Management System",
+      tech: "Java, Spring Boot, React, MySQL",
+      description:
+        "A web-based hospital appointment management system designed to manage patients, doctors, appointments, and related healthcare information.",
+      github: "https://github.com/Divya22022004/Hospital_Appointment_Management_System"
+    },
+    {
+      title: "Dynamic Greeting App",
+      tech: "MERN Stack",
+      description:
+        "A personalized greeting generator based on time and user behavior.",
+      github: "https://github.com/Divya22022004/dynamic_greetings"
+    },
+    {
+      title: "Diabetes Prediction",
+      tech: "Python, Scikit-learn",
+      description:
+        "Machine learning model to predict diabetes based on health parameters.",
+      github: "https://github.com/Divya22022004/Diabetes-Prediction-Project"
+    },
+    {
+      title: "Railway Management System",
+      tech: "Java, JSP, HTML, CSS, JavaScript, AJAX, MySQL, Apache Tomcat",
+      description:
+        "JSP-based web application for railway reservations, train scheduling, fare calculation, and PNR tracking.",
+      github: "https://github.com/Divya22022004/Railway-Management-System"
+    },
+    {
+      title: "PHP MySQL Chat Application – MyChat",
+      tech: "PHP, MySQL, HTML, CSS, JavaScript, Bootstrap, Apache (XAMPP)",
+      description:
+        "Real-time chat platform with authentication, friend search, and online/offline status tracking.",
+      github: "https://github.com/Divya22022004/PHP-MySql-Chat-Application"
+    },
+    {
+      title: "QR Code Project",
+      tech: "Node.js, JavaScript, npm (qrcode), HTML, CSS",
+      description:
+        "Generates QR codes from user data and saves them as downloadable PNG images.",
+      github: "https://github.com/Divya22022004/QR-Code-Project"
+    },
+    {
+      title: "Blockchain Voting System",
+      tech: "Node.js, Express.js, MongoDB, MetaMask",
+      description:
+        "Secure and transparent voting system using blockchain technology with MetaMask authentication."
+    }
+  ];
 
   return (
     <section className="section">
       <h1 className="text-4xl font-extrabold text-center mb-10 text-purple-600 dark:text-purple-400">
         🚀 Projects
       </h1>
+
       <div className="grid sm:grid-cols-2 gap-6">
         {projects.map((project, index) => (
-          <div key={index} className="card border-l-4 border-blue-500 hover:shadow-lg transition-transform hover:scale-105">
-            <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-1">{project.title}</h2>
-            <p className="text-sm text-gray-500 mb-1">🔧 {project.tech}</p>
-            <p className="text-gray-700 dark:text-gray-300 mb-3">{project.description}</p>
+          <div
+            key={index}
+            className="card border-l-4 border-blue-500 hover:shadow-lg transition-transform hover:scale-105"
+          >
+            <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-1">
+              {project.title}
+            </h2>
+
+            <p className="text-sm text-gray-500 mb-1">
+              🔧 {project.tech}
+            </p>
+
+            <p className="text-gray-700 dark:text-gray-300 mb-3">
+              {project.description}
+            </p>
+
             {project.github ? (
               <a
                 href={project.github}
@@ -63,7 +93,9 @@ export default function ProjectsPage() {
                 View on GitHub
               </a>
             ) : (
-              <p className="text-sm italic text-gray-400 dark:text-gray-500">GitHub link not available</p>
+              <p className="text-sm italic text-gray-400 dark:text-gray-500">
+                GitHub link not available
+              </p>
             )}
           </div>
         ))}
