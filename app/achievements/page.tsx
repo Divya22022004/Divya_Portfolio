@@ -5,33 +5,33 @@ import { FaAward } from "react-icons/fa";
 export default function AchievementsPage() {
   const achievements = [
     {
-      title: "University 3rd Rank – Semester 1",
+      title: "3rd Rank – Semester 1 (Department)",
       description:
-        "Secured 3rd rank at the university level in Semester 1 and received a ₹10,000 cash prize for academic achievement.",
+        "Secured 3rd rank in the department in Semester 1 and received a ₹10,000 cash prize for academic achievement.",
       proof:
         "https://drive.google.com/file/d/1CSxNdMOEHdKyBGNUUFfAk0XngUcpahmk/view?usp=sharing",
       icon: "🥉"
     },
     {
-      title: "University 2nd Rank – Semester 3",
+      title: "2nd Rank – Semester 3 (Department)",
       description:
-        "Secured 2nd rank at the university level in Semester 3 and received a ₹15,000 cash prize for academic achievement.",
+        "Secured 2nd rank in the department in Semester 3 and received a ₹15,000 cash prize for academic achievement.",
       proof:
         "https://drive.google.com/file/d/1DBWnD4eWWtSo-0XxuJtnFMeXLYrZAWZ4/view?usp=sharing",
       icon: "🥈"
     },
     {
-      title: "University 3rd Rank – Semester 6",
+      title: "3rd Rank – Semester 6 (Department)",
       description:
-        "Secured 3rd rank at the university level in Semester 6 for academic achievement.",
+        "Secured 3rd rank in the department in Semester 6 for academic achievement.",
       proof:
         "https://drive.google.com/file/d/1F0_v3Z_WEhqbaWiO21HoDPNg7flw_Ogh/view?usp=sharing",
       icon: "🥉"
     },
     {
-      title: "University 2nd Rank – Semester 7",
+      title: "2nd Rank – Semester 7 (Department)",
       description:
-        "Secured 2nd rank at the university level in Semester 7 for academic achievement.",
+        "Secured 2nd rank in the department in Semester 7 for academic achievement.",
       proof:
         "https://drive.google.com/file/d/1SrO6V1UEvquWE6QeraCKh9S9yJ9vjxM8/view?usp=sharing",
       icon: "🥈"
