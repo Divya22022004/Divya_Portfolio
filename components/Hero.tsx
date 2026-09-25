@@ -22,10 +22,7 @@ export default function Hero() {
           <span className="font-semibold">
             Java Full Stack Developer
           </span>{" "}
-          and{" "}
-          <span className="font-semibold">
-            Machine Learning Enthusiast
-          </span>{" "}
+          
           passionate about building efficient, user-friendly applications.
         </p>
 
