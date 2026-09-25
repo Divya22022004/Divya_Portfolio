@@ -1,8 +1,18 @@
 'use client';
+
 import Image from "next/image";
 
 export default function ExperiencePage() {
   const experiences = [
+   {
+  title: "Java Full Stack Developer Intern",
+  company: "Cognizant",
+  duration: "Feb 2026 – Jun 2026",
+  description:
+    "Completed a Java Full Stack internship with hands-on experience in Spring Boot and Angular. Worked as part of a 5-member team to develop a full-stack application, build REST APIs, and implement frontend features. Gained practical experience in backend development, API integration, database connectivity, and application development.",
+  logo: "/cognizant_logo.jpeg",
+  link: "https://drive.google.com/file/d/1Wo-30vyvvTVK7-NHFqUm284mZUtqnseE/view?usp=sharing",
+},
     {
       title: "Full Stack Developer Intern",
       company: "Infomatronics Project Services",
@@ -25,7 +35,9 @@ export default function ExperiencePage() {
 
   return (
     <section className="section">
-      <h1 className="text-4xl font-bold mb-6 text-center">💼 Experience</h1>
+      <h1 className="text-4xl font-bold mb-6 text-center">
+        💼 Experience
+      </h1>
 
       <div className="grid gap-6">
         {experiences.map((exp, index) => (
@@ -45,14 +57,22 @@ export default function ExperiencePage() {
                   />
                 </div>
               )}
+
               <div>
-                <h2 className="text-xl font-semibold">{exp.title}</h2>
+                <h2 className="text-xl font-semibold">
+                  {exp.title}
+                </h2>
+
                 <p className="text-gray-600 dark:text-gray-400 text-sm">
                   {exp.company} · <span>{exp.duration}</span>
                 </p>
               </div>
             </div>
-            <p className="text-gray-700 dark:text-gray-300 mb-3">{exp.description}</p>
+
+            <p className="text-gray-700 dark:text-gray-300 mb-3">
+              {exp.description}
+            </p>
+
             {exp.link && (
               <a
                 href={exp.link}
