@@ -1,4 +1,4 @@
-```jsx
+
 'use client';
 
 import { FaCode, FaTools, FaLaptopCode } from "react-icons/fa";
@@ -100,4 +100,3 @@ export default function AboutPage() {
     </section>
   );
 }
-```
